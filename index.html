@@ -1,0 +1,1044 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ISO Certification Services</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+    />
+    <style>
+      body {
+        background-color: #2c2f33;
+        color: #ffffff;
+      }
+      nav,
+      footer {
+        background-color: #23272a;
+      }
+      nav a,
+      footer a {
+        color: #00aaff;
+        font-weight: bold;
+      }
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1rem;
+      }
+      .card {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 1rem;
+        background-color: #444;
+      }
+      .card img {
+        max-width: 100%;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 1rem;
+      }
+      .card h4,
+      h2,
+      h3,
+      p,
+      small {
+        color: #ffffff;
+        filter: brightness(1.2);
+      }
+    </style>
+    <script>
+      function showPage(pageId) {
+        const pages = document.querySelectorAll(".page");
+        pages.forEach((page) => (page.style.display = "none"));
+        document.getElementById(pageId).style.display = "block";
+      }
+    </script>
+  </head>
+  <body onload="showPage('home')">
+    <nav class="container-fluid">
+      <ul>
+        <li><strong>ISO Certification Services</strong></li>
+      </ul>
+      <ul>
+        <li><a href="#" onclick="showPage('home')">Home</a></li>
+        <li><a href="#" onclick="showPage('about')">About Us</a></li>
+        <li class="dropdown">
+          <a href="#">Certifications</a>
+          <div class="dropdown-content">
+            <a href="#" onclick="showPage('iso9001')">ISO 9001</a>
+            <a href="#" onclick="showPage('iso27001')">ISO 27001</a>
+            <a href="#" onclick="showPage('iso14001')">ISO 14001</a>
+            <a href="#" onclick="showPage('iso45001')">ISO 45001</a>
+            <a href="#" onclick="showPage('iso22000')">ISO 22000</a>
+            <a href="#" onclick="showPage('iso50001')">ISO 50001</a>
+            <a href="#" onclick="showPage('iso13485')">ISO 13485</a>
+            <a href="#" onclick="showPage('iso17025')">ISO 17025</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#">Consultancy</a>
+          <div class="dropdown-content">
+            <a href="#" onclick="showPage('energy')">Energy (Oil and Gas)</a>
+            <a href="#" onclick="showPage('building-information-management')"
+              >Building Information Management</a
+            >
+            <a href="#" onclick="showPage('fire-safety-security')"
+              >Fire, Safety & Security</a
+            >
+            <a href="#" onclick="showPage('taxation')">Taxation</a>
+            <a href="#" onclick="showPage('decision-makers')"
+              >Decision Makers</a
+            >
+            <a href="#" onclick="showPage('immigration')">Immigration</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#">Contact</a>
+          <div class="dropdown-content">
+            <a href="#" onclick="showPage('contact-form')">Contact Form</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="container">
+      <div id="home" class="page">
+        <hgroup>
+          <h2>Welcome to Our ISO Certification Services</h2>
+          <h3>Your Trusted Partner in ISO Certification</h3>
+        </hgroup>
+        <p>
+          We provide comprehensive ISO certification services for a variety of
+          standards including ISO 9001, ISO 27001, and many others. Our goal is
+          to ensure your business meets the highest standards of quality and
+          security.
+        </p>
+        <figure>
+          <img src="Kla.jpg" alt="ISO Certification Icon" />
+          <figcaption>
+            <a href="https://www.iso.org/certification.html" target="_blank"
+              >Learn more about ISO certification</a
+            >
+          </figcaption>
+        </figure>
+        <h3>Why Choose Us?</h3>
+        <p>
+          Our team of experts provides tailored solutions to meet your
+          certification needs, ensuring your business complies with the latest
+          ISO standards.
+        </p>
+        <h3>Our Services</h3>
+        <p>
+          From initial consultation to final certification, we support you every
+          step of the way.
+        </p>
+      </div>
+
+      <div id="about" class="page" style="display: none">
+        <h2>About Us</h2>
+        <p>
+          At ISO Certification Services, we are dedicated to helping companies
+          achieve their goals through thorough due diligence and expert
+          guidance. Our mission is to ensure that companies are certified and
+          able to conduct business properly without interruption.
+        </p>
+        <p>
+          We understand the importance of maintaining high standards and
+          compliance in today's competitive market. Our team works tirelessly to
+          provide the support and resources needed to navigate the complexities
+          of ISO certification.
+        </p>
+        <p>
+          With our extensive knowledge and experience, we are committed to
+          delivering top-notch services that enhance the efficiency, quality,
+          and success of your business operations. Trust us to be your partner
+          in achieving excellence and certification.
+        </p>
+      </div>
+
+      <div id="iso9001" class="page" style="display: none">
+        <h2>ISO 9001: Quality Management Systems</h2>
+        <h3>What is ISO 9001?</h3>
+        <p>
+          ISO 9001 sets out the criteria for a quality management system and is
+          the only standard in the family that can be certified to. It can be
+          used by any organization, large or small, regardless of its field of
+          activity.
+        </p>
+        <p>
+          ISO 9001 helps ensure that customers get consistent, good-quality
+          products and services, which in turn brings many business benefits.
+        </p>
+        <h3>Benefits of ISO 9001 Certification</h3>
+        <ul>
+          <li>Improved customer satisfaction</li>
+          <li>Better internal management</li>
+          <li>Less wastage</li>
+          <li>Increased efficiency, productivity, and profit</li>
+          <li>Improved customer retention and acquisition</li>
+          <li>Globally recognized standard</li>
+        </ul>
+      </div>
+
+      <div id="iso27001" class="page" style="display: none">
+        <h2>ISO 27001: Information Security Management Systems</h2>
+        <h3>What is ISO 27001?</h3>
+        <p>
+          ISO 27001 is the international standard for information security
+          management systems (ISMS). It provides a framework for managing and
+          protecting sensitive company information so that it remains secure.
+        </p>
+        <p>
+          ISO 27001 certification demonstrates that your organization has
+          invested in the people, processes, and technology (e.g., tools and
+          systems) to protect your organization’s data and provides an
+          independent, expert assessment of whether your data is sufficiently
+          protected.
+        </p>
+        <h3>Benefits of ISO 27001 Certification</h3>
+        <ul>
+          <li>Protects your data and intellectual property</li>
+          <li>Reduces information security risks</li>
+          <li>Ensures legal compliance</li>
+          <li>Improves customer and business partner confidence</li>
+          <li>Enhances reputation</li>
+          <li>Potential reduction in insurance premiums</li>
+        </ul>
+      </div>
+
+      <div id="iso14001" class="page" style="display: none">
+        <h2>ISO 14001: Environmental Management Systems</h2>
+        <h3>What is ISO 14001?</h3>
+        <p>
+          ISO 14001 sets out the criteria for an environmental management
+          system.
+        </p>
+        <h4>Benefits</h4>
+        <ul>
+          <li>Enhances environmental performance</li>
+          <li>Reduces waste and energy consumption</li>
+          <li>Improves regulatory compliance</li>
+        </ul>
+      </div>
+
+      <div id="iso45001" class="page" style="display: none">
+        <h2>ISO 45001: Occupational Health and Safety</h2>
+        <h3>What is ISO 45001?</h3>
+        <p>
+          ISO 45001 specifies requirements for an occupational health and safety
+          (OH&S) management system.
+        </p>
+        <h4>Benefits</h4>
+        <ul>
+          <li>Reduces workplace accidents and illnesses</li>
+          <li>Improves employee safety</li>
+          <li>Demonstrates a commitment to health and safety standards</li>
+        </ul>
+      </div>
+
+      <div id="iso22000" class="page" style="display: none">
+        <h2>ISO 22000: Food Safety Management Systems</h2>
+        <h3>What is ISO 22000?</h3>
+        <p>
+          ISO 22000 specifies requirements for a food safety management system.
+        </p>
+        <h4>Benefits</h4>
+        <ul>
+          <li>Ensures food safety</li>
+          <li>Reduces foodborne hazards</li>
+          <li>Enhances compliance with food safety regulations</li>
+        </ul>
+      </div>
+
+      <div id="iso50001" class="page" style="display: none">
+        <h2>ISO 50001: Energy Management Systems</h2>
+        <h3>What is ISO 50001?</h3>
+        <p>
+          ISO 50001 provides a framework for establishing energy management best
+          practices.
+        </p>
+        <h4>Benefits</h4>
+        <ul>
+          <li>Reduces energy consumption</li>
+          <li>Lowers greenhouse gas emissions</li>
+          <li>Cuts energy costs</li>
+        </ul>
+      </div>
+
+      <div id="iso13485" class="page" style="display: none">
+        <h2>ISO 13485: Medical Devices</h2>
+        <h3>What is ISO 13485?</h3>
+        <p>
+          ISO 13485 specifies requirements for a quality management system for
+          medical devices.
+        </p>
+        <h4>Benefits</h4>
+        <ul>
+          <li>Ensures the safety and quality of medical devices</li>
+          <li>Improves regulatory compliance</li>
+          <li>Enhances market access</li>
+        </ul>
+      </div>
+
+      <div id="iso17025" class="page" style="display: none">
+        <h2>ISO 17025: Testing and Calibration Laboratories</h2>
+        <h3>What is ISO 17025?</h3>
+        <p>
+          ISO 17025 specifies requirements for the competence of testing and
+          calibration laboratories.
+        </p>
+        <h4>Benefits</h4>
+        <ul>
+          <li>Ensures accurate and reliable testing results</li>
+          <li>Improves lab operations</li>
+          <li>Enhances customer trust</li>
+        </ul>
+        <p>
+          These certifications help organizations to standardize processes,
+          improve efficiency, and meet regulatory requirements, ultimately
+          leading to better customer satisfaction. These certifications come
+          with a verification from the Uganda Bureau of Standards.
+        </p>
+      </div>
+
+      <div id="energy" class="page" style="display: none">
+        <h2>Energy (Oil and Gas)</h2>
+        <h3>Energy, Oil & Gas and Construction</h3>
+        <p>
+          The firm handles all energy-related matters and has vast expertise in
+          oil and gas, renewable energy, nuclear energy, construction law, and
+          energy arbitration.
+        </p>
+        <p>
+          The firm has also provided consultations to a wide range of clients in
+          relation to construction law including roads, dams, installation and
+          building construction.
+        </p>
+        <p>
+          The firm understands that energy development is instrumental to
+          Africa’s economic future and is cognizant of the fact that complex
+          energy problems require creative solutions.
+        </p>
+        <p>
+          The firm has also consulted with a wide range of clients in relation
+          to construction law including roads, dams, installation and connecting
+          electricity to the national grid, renewable energy, environmental
+          impacts among others.
+        </p>
+        <h3>How we can help you</h3>
+        <p>
+          Our energy law expertise covers a broad range of advice including:
+        </p>
+        <ul>
+          <li>Project development</li>
+          <li>Sales and supply agreements</li>
+          <li>Mergers and acquisitions</li>
+          <li>Consenting</li>
+          <li>Construction</li>
+          <li>Property and land access</li>
+          <li>Regulatory matters</li>
+        </ul>
+      </div>
+
+      <div
+        id="building-information-management"
+        class="page"
+        style="display: none"
+      >
+        <h2>Building Information Management</h2>
+        <h3>What is BIM?</h3>
+        <p>
+          This method helps improve the quality and exchange of information at
+          every stage: design, construction, and post-construction.
+          Fundamentally, BIM is about getting the correct data to the relevant
+          people, at the right time, in the appropriate format.
+        </p>
+        <p>
+          In response to the successful use of UK and International BIM
+          standards, an increasing number of companies in both public and
+          private sectors are adopting the BIM process.
+        </p>
+        <button>Enquire about our BIM Services</button>
+        <h3>Why adopt BIM standards?</h3>
+        <ul>
+          <li>Reduce errors and omissions</li>
+          <li>Improve collaboration</li>
+          <li>Reduce waste</li>
+          <li>Enable whole lifecycle management</li>
+          <li>Provide better information for improved decision-making</li>
+          <li>Reduce the cycle time of specific workflows</li>
+        </ul>
+        <h3>Why choose BRE as your BIM certification partner?</h3>
+        <ul>
+          <li>
+            BRE’s excellent global reputation, with over 100 years of research
+            and innovation
+          </li>
+          <li>
+            Training and certification schemes developed by industry experts
+          </li>
+          <li>
+            Added value: our experienced BIM professionals are also auditors
+          </li>
+        </ul>
+        <h3>Our expertise</h3>
+        <p>
+          BRE's expert team of BIM professionals work to high standards, with
+          precise attention to detail and due diligence. Our team includes
+          experienced BIM practitioners and chartered professionals who
+          represent their industry bodies.
+        </p>
+        <h3>BIM Training and certification</h3>
+        <p>
+          BRE Academy’s ISO 19650 training programme has been developed and is
+          delivered by BRE’s technical experts, who are active in standards
+          committees and have a wealth of practical experience.
+        </p>
+        <ul>
+          <li>BIM Level 2 Certification</li>
+          <li>BIM Certification for Businesses</li>
+          <li>BIM Certification for Individuals</li>
+          <li>ISO 19650 1&2 Project Delivery (formerly Essentials)</li>
+          <li>
+            ISO 19650 Delivering Information Management in Practice (formerly
+            BIM Delivering Information Management)
+          </li>
+        </ul>
+        <h3>BIM Terminology</h3>
+        <p>
+          BRE has produced a free-to-use BIM terminology tool that contains
+          every term’s abbreviation, definition, and reference to check any BIM
+          terms or any other terms used. <a href="#">Access BIM Terminology</a>.
+        </p>
+      </div>
+
+      <div id="fire-safety-security" class="page" style="display: none">
+        <h2>Fire, Safety & Security</h2>
+        <h3>Our expertise: safety, security and fire</h3>
+        <p>
+          Setting the highest standards to minimise risk and protect the people
+          living and working in buildings.
+        </p>
+        <p>
+          Safety must be the primary concern of everyone designing,
+          constructing, managing and maintaining buildings, communities and
+          infrastructure. At BRE, we offer a wide range of services to help make
+          sure that safety risks are minimised and regulatory requirements are
+          met. Security products and services approved by LPCB and listed in the
+          RedBook play an important role in protecting people and property
+          against damage, crime and fire.
+        </p>
+        <h3>Safety</h3>
+        <p>
+          BRE provides a confidential research and consultancy service to reduce
+          health and safety risks, and increase comfort and wellbeing, in the
+          workplace, schools, homes and other built environments.
+        </p>
+        <p>Our wide-ranging research and consultancy includes:</p>
+        <ul>
+          <li>
+            Assessing and managing risks associated with chemicals,
+            micro-organisms, particles, asbestos and man-made mineral fibres in
+            buildings and in transport.
+          </li>
+          <li>
+            Landfill and other ground gases; monitoring, evaluating risks and
+            problem solving.
+          </li>
+          <li>
+            Building-related health problems such as sick building syndrome and
+            legionnaires disease.
+          </li>
+          <li>Safety, accessibility and accidents in buildings</li>
+          <li>Occupant surveys, questionnaire design and data analysis.</li>
+        </ul>
+        <p>
+          BRE Academy provides a range of widely respected fire and safety
+          training.
+        </p>
+        <p>
+          YellowJacket Health and Safety Construction Site software enables you
+          to monitor and report on construction site safety.
+        </p>
+        <h3>Security</h3>
+        <p>
+          We work to enhance the security of buildings and protect people and
+          property against crime. Improved security can have many benefits for
+          the safety and wellbeing of people and communities. We can help you
+          with correctly specifying approved building security systems and
+          products. We also use design and management strategies to help reduce
+          crime and anti-social behaviour.
+        </p>
+        <h3>Fire safety</h3>
+        <p>
+          Our fire team is an integral part of the fire safety industry in the
+          UK and internationally, and has been for many decades. Our unique
+          track record of fire research, testing and developing standards
+          enables us to offer an exceptional range of services to the fire
+          safety market.
+        </p>
+        <p>
+          Our experts cover all aspects of fire detection and fire alarm systems
+          including fire detectors, fire warning devices, components and fire
+          systems used in industrial, commercial and domestic environments.
+        </p>
+        <p>
+          We work with industry and UK government to set the standards for fire
+          products and services. RedBook lists all LPCB-approved products and
+          services and has become the industry’s go-to specification guide.
+        </p>
+      </div>
+
+      <div id="taxation" class="page" style="display: none">
+        <h2>Taxation</h2>
+        <h3>Tax Services</h3>
+        <p>
+          Every transaction has a taxation consequence. We help our clients
+          identify those consequences and provide holistic and tax-efficient
+          solutions that meet clients' needs while addressing the intricacies of
+          the Uganda tax rules. Our market-leading team has decades of taxation
+          experience and is trusted by clients to deliver legally robust and
+          commercially pragmatic solutions. We work with Uganda and
+          international businesses and individuals, advising them on all aspects
+          of Uganda's direct and indirect taxation, including income tax, VAT,
+          and Customs duties.
+        </p>
+        <p>
+          Because we know that taxation law is a dynamic field, we keep a close
+          watch on current developments to monitor the impact of changes on our
+          clients and regularly lobby for appropriate legislative outcomes. We
+          understand the issues private and public companies, individuals, and
+          unincorporated bodies face, and we are equipped to service them at
+          every stage of their development.
+        </p>
+        <h3>How we can help</h3>
+        <p>
+          As a one-stop center with a track record of delivering highly
+          efficient results, the Firm has successfully handled various matters
+          for a cross-section of clientele in all sectors of the economy, both
+          locally and internationally, including:
+        </p>
+        <h4>Consultancy</h4>
+        <p>
+          BBA has carried out various consultancies for the drafting and advice
+          on double taxation agreements, drafting codes on practices against
+          harmful tax practices, training revenue officials in Bauchi State,
+          Nigeria, on best practices in taxation, assisted in the drafting of
+          the Tax Appeals Tribunal Act of Rwanda, drafting provisions for EAC
+          interconnectivity and provided tax consultancy services to regional
+          bodies including government bodies in Liberia, Rwanda, Zambia and
+          international organizations like GIZ, IFC, World Bank.
+        </p>
+        <h4>Advisory</h4>
+        <p>
+          The Firm advises individuals and companies on effective tax structures
+          and tax planning, applying for tax exemptions, applying for tax
+          refunds, international tax, transfer pricing policies,
+          financial-related services, oil and gas, Construction, and payrolls,
+          among others.
+        </p>
+        <p>
+          The Firm has also been instrumental in providing legal advice to the
+          Insurance Industry with respect to the application of withholding tax
+          on commissions paid to insurance brokers and agents, the application
+          of withholding tax and value-added tax on reinsurance premiums, the
+          application of the Workers' Compensation Act and application of double
+          tax agreements on reinsurance contracts.
+        </p>
+        <h4>Tax audits and review</h4>
+        <p>
+          The firm reviews and analyses tax computations and ledger
+          reconciliations by URA and assists clients during audits and or
+          objection processes.
+        </p>
+        <h4>Filing Tax Returns</h4>
+        <p>
+          The firm files returns on behalf of clients for corporation tax,
+          withholding tax, PAYE, and VAT, amongst others.
+        </p>
+        <h4>
+          Tax Registration for all taxes, for both residents and non-residents
+        </h4>
+        <p>
+          The Firm offers and guides clients on registering for various taxes
+          for resident and non-resident persons in Uganda.
+        </p>
+        <h4>Key Contacts</h4>
+      </div>
+
+      <div id="decision-makers" class="page" style="display: none">
+        <h2>Decision Makers</h2>
+        <h3>Meeting Decision Makers</h3>
+        <p>
+          In the competitive world of business, getting in front of the right
+          people can make all the difference. As a business owner in Uganda, you
+          may find that you're not meeting ministers, MPs, and other influential
+          decision makers who can enhance and promote your company. This is
+          something your competitors are already doing, gaining access to
+          markets and opportunities that you might be missing out on.
+        </p>
+        <p>
+          We can help you bridge this gap. Our consultation services are
+          designed to connect you with key decision makers—individuals who have
+          the power to influence your business success. This is not about
+          gaining undue advantage but about leveraging opportunities available
+          to all companies. Unfortunately, many businesses do not take the step
+          to engage in these crucial social meetups.
+        </p>
+        <p>
+          We organize and advise on these meetings, ensuring you have the chance
+          to present your business to those who matter. By facilitating these
+          interactions, we help you gain the visibility and connections needed
+          to advance your business.
+        </p>
+        <p>
+          Don't miss out on the opportunities that can propel your company
+          forward. Let us guide you in meeting the decision makers who can open
+          doors to new markets and growth.
+        </p>
+      </div>
+
+      <div id="immigration" class="page" style="display: none">
+        <h2>Immigration</h2>
+        <h3>Immigration</h3>
+        <p>
+          As part of our wider employment and labour law department, our
+          specialist immigration team navigate the ever-evolving Uganda
+          immigration system to provide leading advice on the requirements to
+          live and work in Uganda.
+        </p>
+        <p>
+          BBA offers immigration advisory services and acts for large local
+          employers and multi-national companies covering the full spectrum of
+          immigration issues.
+        </p>
+        <h3>How we can help you</h3>
+        <p>
+          Our expertise in the area enables us to deliver quick and practice
+          solutions to our clients in particular client that wish to regularize:
+        </p>
+        <ul>
+          <li>
+            The immigration status of their non-Ugandan employees, their spouses
+            and children, students among other.
+          </li>
+          <li>
+            Regularising client’s travel documents and other related documents.
+          </li>
+          <li>Advise on Dual citizenship</li>
+        </ul>
+      </div>
+
+      <div id="contact-form" class="page" style="display: none">
+        <h2>Contact Us</h2>
+        <form>
+          <fieldset>
+            <legend>Contact Details</legend>
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required />
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required />
+
+            <label for="company-name">Company Name:</label>
+            <input type="text" id="company-name" name="company-name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="phone">Telephone Number:</label>
+            <input type="tel" id="phone" name="phone" required />
+          </fieldset>
+
+          <fieldset>
+            <legend>Inquiry Details</legend>
+            <label for="enquiry-type">Area of Interest:</label>
+            <select id="enquiry-type" name="enquiry-type">
+              <option value="sales">Sales</option>
+              <option value="services">Services</option>
+              <option value="support">Support</option>
+            </select>
+
+            <label for="service">Service:</label>
+            <select id="service" name="service">
+              <option value="consulting">Consulting</option>
+              <option value="training">Training</option>
+              <option value="certification">Certification</option>
+            </select>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </fieldset>
+
+          <label for="accept-policy">
+            <input
+              type="checkbox"
+              id="accept-policy"
+              name="accept-policy"
+              required
+            />
+            I have read and agree to the
+            <a href="#" onclick="showPage('privacy-policy')">Privacy Policy</a>
+            and
+            <a href="#" onclick="showPage('terms-of-service')"
+              >Terms of Service</a
+            >.
+          </label>
+
+          <button type="submit" onclick="event.preventDefault()">Submit</button>
+        </form>
+      </div>
+
+      <div id="privacy-policy" class="page" style="display: none">
+        <h2>Privacy Policy</h2>
+        <p>
+          ISO Certification Services is committed to protecting your privacy.
+          This Privacy Policy explains how we collect, use, disclose, and
+          safeguard your information when you visit our website [URL] including
+          any other media form, media channel, mobile website, or mobile
+          application related or connected thereto (collectively, the "Site").
+          Please read this privacy policy carefully. If you do not agree with
+          the terms of this privacy policy, please do not access the site.
+        </p>
+        <h3>Information We Collect</h3>
+        <p>
+          We may collect personal information from you such as your name or
+          email address. For example, you may voluntarily submit information to
+          the Website by leaving a comment, subscribing to a newsletter, or
+          submitting a contact form. In addition, we may collect information
+          about you automatically when you visit the Site, such as your IP
+          address, browser type, domain names, access times, and referring
+          website addresses.
+        </p>
+        <h3>Use of Your Information</h3>
+        <p>
+          Having accurate information about you permits us to provide you with a
+          smooth, efficient, and customized experience. Specifically, we may use
+          information collected about you via the Site to:
+        </p>
+        <ul>
+          <li>Provide and maintain the Site;</li>
+          <li>Improve our products and services;</li>
+          <li>Respond to inquiries and offer support;</li>
+          <li>
+            Send you promotional information, such as newsletters. Each email
+            promotion will provide information on how to opt-out of future
+            mailings;
+          </li>
+          <li>
+            Deliver targeted advertising, coupons, newsletters, and other
+            information regarding promotions and the Site to you;
+          </li>
+          <li>
+            To protect, investigate, and deter against unauthorized or illegal
+            activity.
+          </li>
+        </ul>
+        <h3>Disclosure of Your Information</h3>
+        <p>
+          We may share information we have collected about you in certain
+          situations. Your information may be disclosed as follows:
+        </p>
+        <ul>
+          <li>By Law or to Protect Rights</li>
+          <li>Third-Party Service Providers</li>
+          <li>Business Partners</li>
+          <li>Sale or Bankruptcy</li>
+        </ul>
+        <h3>Security of Your Information</h3>
+        <p>
+          We use administrative, technical, and physical security measures to
+          help protect your personal information. While we have taken reasonable
+          steps to secure the personal information you provide to us, please be
+          aware that despite our efforts, no security measures are perfect or
+          impenetrable, and no method of data transmission can be guaranteed
+          against any interception or other type of misuse.
+        </p>
+        <h3>Policy for Children</h3>
+        <p>
+          We do not knowingly solicit information from or market to children
+          under the age of 13. If we learn that we have collected personal
+          information from a child under age 13 without verification of parental
+          consent, we will delete that information as quickly as possible.
+        </p>
+        <h3>Changes to This Privacy Policy</h3>
+        <p>
+          We may update this Privacy Policy from time to time in order to
+          reflect, for example, changes to our practices or for other
+          operational, legal, or regulatory reasons.
+        </p>
+        <h3>Contact Us</h3>
+        <p>
+          If you have questions or comments about this Privacy Policy, please
+          contact us at [contact information].
+        </p>
+      </div>
+
+      <div id="terms-of-service" class="page" style="display: none">
+        <h2>Terms of Service</h2>
+        <h3>[Your Website Name] Terms of Service</h3>
+        <p>
+          Welcome to [Your Website Name]. These terms and conditions outline the
+          rules and regulations for the use of [Your Website URL] (hereafter
+          referred to as "the Site").
+        </p>
+        <p>
+          By accessing this website, we assume you accept these terms and
+          conditions in full. Do not continue to use [Your Website URL] if you
+          do not accept all of the terms and conditions stated on this page.
+        </p>
+        <h3>License to Use the Site</h3>
+        <p>
+          Unless otherwise stated, [Your Website Name] and/or its licensors own
+          the intellectual property rights published on this website and
+          materials used on [Your Website Name]. Subject to the license below,
+          all these intellectual property rights are reserved.
+        </p>
+        <p>
+          You may view, download for caching purposes only, and print pages,
+          files, or other content from the website for your own personal use,
+          subject to the restrictions set out below and elsewhere in these terms
+          and conditions.
+        </p>
+        <p>You must not:</p>
+        <ul>
+          <li>
+            Republish material from this website in neither print nor digital
+            media or documents (including republication on another website);
+          </li>
+          <li>Sell, rent, or sub-license material from the website;</li>
+          <li>Show any material from the website in public;</li>
+          <li>
+            Reproduce, duplicate, copy, or otherwise exploit material on this
+            website for a commercial purpose;
+          </li>
+          <li>Edit or otherwise modify any material on the website;</li>
+          <li>
+            Redistribute material from this website – except for content
+            specifically and expressly made available for redistribution; or
+          </li>
+          <li>
+            Reproduce or store any part of this website in any other website or
+            include any part of this website in any public or private electronic
+            retrieval system or service without [Your Website Name]'s prior
+            written permission.
+          </li>
+        </ul>
+        <h3>Acceptable Use</h3>
+        <p>
+          You must not use this website in any way that causes, or may cause,
+          damage to the website or impairment of the availability or
+          accessibility of [Your Website Name] or in any way which is unlawful,
+          illegal, fraudulent, or harmful, or in connection with any unlawful,
+          illegal, fraudulent, or harmful purpose or activity.
+        </p>
+        <p>
+          You must not use this website to copy, store, host, transmit, send,
+          use, publish, or distribute any material which consists of (or is
+          linked to) any spyware, computer virus, Trojan horse, worm, keystroke
+          logger, rootkit, or other malicious computer software.
+        </p>
+        <p>
+          You must not conduct any systematic or automated data collection
+          activities on or in relation to this website without [Your Website
+          Name]'s express written consent.
+        </p>
+        <h3>No warranties</h3>
+        <p>
+          This website is provided "as is" without any representations or
+          warranties, express or implied. [Your Website Name] makes no
+          representations or warranties in relation to this website or the
+          information and materials provided on this website.
+        </p>
+        <p>
+          Without prejudice to the generality of the foregoing paragraph, [Your
+          Website Name] does not warrant that:
+        </p>
+        <ul>
+          <li>
+            this website will be constantly available, or available at all; or
+          </li>
+          <li>
+            the information on this website is complete, true, accurate, or
+            non-misleading.
+          </li>
+        </ul>
+        <p>
+          Nothing on this website constitutes, or is meant to constitute, advice
+          of any kind. If you require advice in relation to any legal,
+          financial, or medical matter you should consult an appropriate
+          professional.
+        </p>
+        <h3>Limitations of liability</h3>
+        <p>
+          [Your Website Name] will not be liable to you (whether under the law
+          of contact, the law of torts, or otherwise) in relation to the
+          contents of, or use of, or otherwise in connection with, this website:
+        </p>
+        <ul>
+          <li>
+            to the extent that the website is provided free-of-charge, for any
+            direct loss;
+          </li>
+          <li>for any indirect, special, or consequential loss; or</li>
+          <li>
+            for any business losses, loss of revenue, income, profits, or
+            anticipated savings, loss of contracts or business relationships,
+            loss of reputation or goodwill, or loss or corruption of information
+            or data.
+          </li>
+        </ul>
+        <p>
+          These limitations of liability apply even if [Your Website Name] has
+          been expressly advised of the potential loss.
+        </p>
+        <h3>Exceptions</h3>
+        <p>
+          Nothing in this website disclaimer will exclude or limit any warranty
+          implied by law that it would be unlawful to exclude or limit; and
+          nothing in this website disclaimer will exclude or limit [Your Website
+          Name]'s liability in respect of any:
+        </p>
+        <ul>
+          <li>
+            death or personal injury caused by [Your Website Name]'s negligence;
+          </li>
+          <li>
+            fraud or fraudulent misrepresentation on the part of [Your Website
+            Name]; or
+          </li>
+          <li>
+            matter which it would be illegal or unlawful for [Your Website Name]
+            to exclude or limit, or to attempt or purport to exclude or limit,
+            its liability.
+          </li>
+        </ul>
+        <h3>Reasonableness</h3>
+        <p>
+          By using this website, you agree that the exclusions and limitations
+          of liability set out in this website disclaimer are reasonable.
+        </p>
+        <p>
+          If you do not think they are reasonable, you must not use this
+          website.
+        </p>
+        <h3>Other parties</h3>
+        <p>
+          You accept that, as a limited liability entity, [Your Website Name]
+          has an interest in limiting the personal liability of its officers and
+          employees. You agree that you will not bring any claim personally
+          against [Your Website Name]'s officers or employees in respect of any
+          losses you suffer in connection with the website.
+        </p>
+        <p>
+          Without prejudice to the foregoing paragraph, you agree that the
+          limitations of warranties and liability set out in this website
+          disclaimer will protect [Your Website Name]'s officers, employees,
+          agents, subsidiaries, successors, assigns, and sub-contractors as well
+          as [Your Website Name].
+        </p>
+        <h3>Unenforceable provisions</h3>
+        <p>
+          If any provision of this website disclaimer is, or is found to be,
+          unenforceable under applicable law, that will not affect the
+          enforceability of the other provisions of this website disclaimer.
+        </p>
+        <h3>Indemnity</h3>
+        <p>
+          You hereby indemnify [Your Website Name] and undertake to keep [Your
+          Website Name] indemnified against any losses, damages, costs,
+          liabilities, and expenses (including without limitation legal expenses
+          and any amounts paid by [Your Website Name] to a third party in
+          settlement of a claim or dispute on the advice of [Your Website
+          Name]'s legal advisers) incurred or suffered by [Your Website Name]
+          arising out of any breach by you of any provision of these terms and
+          conditions[, or arising out of any claim that you have breached any
+          provision of these terms and conditions].
+        </p>
+        <h3>Breaches of these terms and conditions</h3>
+        <p>
+          Without prejudice to [Your Website Name]'s other rights under these
+          terms and conditions, if you breach these terms and conditions in any
+          way, [Your Website Name] may take such action as [Your Website Name]
+          deems appropriate to deal with the breach, including suspending your
+          access to the website, prohibiting you from accessing the website,
+          blocking computers using your IP address from accessing the website,
+          contacting your internet service provider to request that they block
+          your access to the website and/or bringing court proceedings against
+          you.
+        </p>
+        <h3>Variation</h3>
+        <p>
+          [Your Website Name] may revise these terms and conditions from
+          time-to-time. Revised terms and conditions will apply to the use of
+          this website from the date of the publication of the revised terms and
+          conditions on this website. Please check this page regularly to ensure
+          you are familiar with the current version.
+        </p>
+        <h3>Assignment</h3>
+        <p>
+          [Your Website Name] may transfer, sub-contract, or otherwise deal with
+          [Your Website Name]'s rights and/or obligations under these terms and
+          conditions without notifying you or obtaining your consent.
+        </p>
+        <p>
+          You may not transfer, sub-contract, or otherwise deal with your rights
+          and/or obligations under these terms and conditions.
+        </p>
+        <h3>Severability</h3>
+        <p>
+          If a provision of these terms and conditions is determined by any
+          court or other competent authority to be unlawful and/or
+          unenforceable, the other provisions will continue in effect. If any
+          unlawful and/or unenforceable provision would be lawful or enforceable
+          if part of it were deleted, that part will be deemed to be deleted,
+          and the rest of the provision will continue in effect.
+        </p>
+        <h3>Entire agreement</h3>
+        <p>
+          These terms and conditions constitute the entire agreement between you
+          and [Your Website Name] in relation to your use of this website and
+          supersede all previous agreements in respect of your use of this
+          website.
+        </p>
+        <h3>Law and jurisdiction</h3>
+        <p>
+          These terms and conditions will be governed by and construed in
+          accordance with the laws of the Republic of Uganda, and any disputes
+          relating to these terms and conditions will be subject to the
+          exclusive jurisdiction of the courts of the Republic of Uganda.
+        </p>
+      </div>
+    </main>
+
+    <footer class="container" style="width: 100%">
+      <small
+        ><a href="#" onclick="showPage('privacy-policy')">Privacy Policy</a> •
+        <a href="#" onclick="showPage('terms-of-service')"
+          >Terms of Service</a
+        ></small
+      >
+    </footer>
+  </body>
+</html>
