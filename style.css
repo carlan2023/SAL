@@ -5,10 +5,12 @@
 body {
   background-color: black;
   color: #ffffff;
+  width: 100%;
 }
 nav,
 footer {
-  background-color: #23272a;
+  background-color: white;
+  width: 100%;
 }
 nav a,
 footer a {
@@ -67,4 +69,23 @@ h2 {
 }
 .container-fluid img {
   width: 25vh;
+}
+@media screen {
+  body {
+    background-color: black;
+    color: #ffffff;
+    width: 100%;
+  }
+  nav,
+  footer {
+    background-color: white;
+    width: 100%;
+  }
+  nav a,
+  footer a {
+    color: #00aaff;
+    font-weight: bold;
+  }
+ .dropdown {
+  
 }
