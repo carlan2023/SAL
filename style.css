@@ -1,3 +1,70 @@
 .img-fluid {
   width: 100%;
 }
+
+body {
+  background-color: black;
+  color: #ffffff;
+}
+nav,
+footer {
+  background-color: #23272a;
+}
+nav a,
+footer a {
+  color: #00aaff;
+  font-weight: bold;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: gold;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #444;
+}
+.card img {
+  max-width: 100%;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+.card h4,
+h3,
+p,
+small {
+  color: #ffffff;
+  filter: brightness(1.2);
+}
+h2 {
+  color: goldenblue;
+}
+.container-fluid {
+  display: flex;
+}
+.container-fluid img {
+  width: 25vh;
+}
